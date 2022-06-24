@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>
+            Calculator 
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="calculator.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body class="container black">
+        <div class="row">
+            <div class="col s4 offset-s4">
+                <div class="display center">
+                    <div id="display"></div>
+                    <div id="demoresult"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s1 offset-s4">
+                <div class="opperatorbtn button center btn  red-text waves-effect" onclick="clearall()">C</div>
+            </div>
+            <div class="col s1">
+                <div class="opperatorbtn button center btn waves-effect" onclick="oper('^')">^</div>
+            </div>
+            <div class="col s1">
+                <div class="opperatorbtn button center btn waves-effect" onclick="oper('%')">%</div>
+            </div>
+            <div class="col s1">
+                <div class="opperatorbtn button center btn waves-effect" onclick="oper('÷')">÷</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s1 offset-s4">
+                <div class="numbtn button center btn waves-effect" onclick="calc('7')">7</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('8')">8</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('9')">9</div>
+            </div>
+            <div class="col s1">
+                <div class="opperatorbtn button center btn waves-effect" onclick="oper('×')">×</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s1 offset-s4">
+                <div class="numbtn button center btn waves-effect" onclick="calc('4')">4</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('5')">5</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('6')">6</div>
+            </div>
+            <div class="col s1">
+                <div class="opperatorbtn button center btn waves-effect" onclick="oper('-')">-</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s1 offset-s4">
+                <div class="numbtn button center btn waves-effect" onclick="calc('1')">1</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('2')">2</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('3')">3</div>
+            </div>
+            <div class="col s1">
+                <div class="opperatorbtn button center btn waves-effect" onclick="oper('+')">+</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s1 offset-s4">
+                <div class="numbtn button pembtn center btn waves-effect" onclick="negnum()">+/-</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('0')">0</div>
+            </div>
+            <div class="col s1">
+                <div class="numbtn button center btn waves-effect" onclick="calc('.')">.</div>
+            </div>
+            <div class="col s1">
+                <div class="equaltobtn button center btn waves-effect" onclick="output()">=</div>
+            </div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="calculator.js"></script>
+    </body>
+</html>

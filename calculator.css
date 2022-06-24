@@ -1,0 +1,49 @@
+.display{
+    height: 70px;
+    background-color: bisque;
+    border-radius: 15px;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 50px;
+    /* overflow: hidden; */
+}
+.button{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 5px;
+}
+.opperatorbtn{
+    background-color: lightgreen;
+}
+.numbtn{
+    background-color: skyblue;
+}
+.equaltobtn{
+    background-color: green;
+}
+.pembtn{
+    padding-left: 6px;
+}
+#display{
+    font-size:xx-large;
+    font-weight: bold;
+}
+#demoresult{
+    font-weight: bold;
+    mix-blend-mode: overlay;
+}
+.opperatorbtn:hover{
+    background-color: rgb(74, 223, 74) !important;
+    transform: scale(1.1);
+}
+.equaltobtn:hover{
+    background-color: darkgreen !important;
+    transform: scale(1.1);
+}
+.numbtn:hover{
+    background-color: rgb(34, 158, 207) !important;
+    transform: scale(1.1);
+}
